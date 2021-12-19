@@ -1,0 +1,1041 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.quadrado{
+
+    width: 100%;
+    height: 60px;
+    background-color: #3C2066;
+    position: sticky;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    
+    
+}
+
+.quadrado2{
+
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.quadrado3{
+
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.quadrado4{
+
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/banner3.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+
+
+}
+
+
+img{
+
+    width: 200px;
+    border-radius: 50%; 
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+    
+}
+
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 530px;  
+    
+}
+
+
+a:hover{
+
+    text-decoration: none;
+    color: #3C2066;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FFCD48;
+
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px
+}
+
+
+@media (max-width: 500px){
+
+    *{
+
+        margin: 0;
+        padding: 0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 193px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/500px.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 200px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 100px;  
+    
+}
+
+.quadrado2{
+
+    width: 100%;
+    height: 80px;
+    display:flex;
+    padding-left: 50px;
+ 
+    
+}
+
+.quadrado3{
+
+    width: 100%;
+    height: 80px;
+    display:flex;
+ 
+    
+}
+
+.quadrado4{
+
+    width: 100%;
+    height: 80px;
+    display:flex;
+ 
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+
+@media (max-width: 360px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:360%;
+    height: 640px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 150px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+
+@media (max-width: 411px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 160px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-position-x: -4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 170px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+@media (max-width: 320px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 125px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-position-x: -25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 145px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+@media (max-width: 375px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 135px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-position-x: -4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 149px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+@media (max-width: 414px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 139px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-position-x: -32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 150px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+
+@media (max-width: 768px){
+
+    *{
+
+        margin: 0;
+        padding:0;
+    }
+
+    
+.logo{
+
+    text-decoration: none;
+    color:#FFCD48;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 139px;
+    padding-bottom: 10px;
+    
+}
+
+.quadrado{
+
+    width:100%;
+    height: 285px;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0px;
+    border-top: 5px solid #FFCD48;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.quadradobanner{
+
+    width: 100%;
+    height: 300px;
+    background-image: url("./Assets/Banner/360px.png");
+    background-size: cover;
+    background-position-x: -32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding-left: 150px;
+    padding-right: 211px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: #FFCD48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C2066;
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 40px; 
+    
+}
+
+.quadrado2{
+
+    width: 360px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+ 
+    
+}
+
+.quadrado3{
+
+    display: none;
+
+}
+
+.quadrado4{
+
+    display: none;
+    
+}
+
+.copy{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C2066;
+    padding: 20px;
+}
+
+}
+
+
+
